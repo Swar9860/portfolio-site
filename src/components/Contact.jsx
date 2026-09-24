@@ -14,7 +14,7 @@ function Contact() {
         <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
         <p className="text-slate-400 mb-10">Have an opportunity or just want to connect? Reach out.</p>
 
-        <form action="PASTE_YOUR_FORMSPREE_URL_HERE" method="POST" className="flex flex-col gap-4 text-left">
+        <form action="https://formspree.io/f/xkjgrkjg" method="POST" className="flex flex-col gap-4 text-left">
           <div>
             <label className="block text-sm text-slate-300 mb-1">Name</label>
             <input type="text" name="name" required className="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-400" />
@@ -34,10 +34,10 @@ function Contact() {
         </form>
 
         <div className="flex justify-center gap-6 mt-10 text-slate-400">
-          <a href="mailto:youremail@example.com" className="hover:text-blue-400">Email</a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">LinkedIn</a>
+          <a href="mailto:swaroopkhadke512@gmail.com" className="hover:text-blue-400">Email</a>
+          <a href="https://www.linkedin.com/in/swaroop-khadke-10b961215/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">LinkedIn</a>
           <a href="https://github.com/Swar9860" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">GitHub</a>
-          <a href="https://leetcode.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">LeetCode</a>
+          <a href="https://leetcode.com/u/Swaroop1010/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">LeetCode</a>
         </div>
       </div>
     </motion.section>
